@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<title>My Resume</title>
+<link rel="stylesheet" href="style.css">
+<meta chraset="utf-8">
+<meta name="viewport" contents="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>  
+
+	 <header>
+		<img src="images/logo.png" alt="Portfolio Logo" height="500" width="285" class="img-fluid logo">
+	 </header>
+	 <nav class="navbar navbar-expand-sm navbar.bg-success bg-success">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  	</button>
+
+ 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item active"><a class="nav-link" href="index.html"><b>Home</b></a></li>
+       			<li class="nav-item active"><a class="nav-link" href="resume.html"><b>Resume</b></a></li>
+      		</li>      
+    		</ul>
+    
+  	</div>
+</nav>
+	<main>  
+		<div class="container-fluid">
+         <div class="row">     	
+            <div class="col-sm-4"> 
+            	<img src="images/Diriba.jpg" alt="background image" height="900" width="700" class="img-fluid "> 
+            </div>
+           <div class="col-sm-8">
+           		<h1>BIOGRAPY</h1>  
+ 				<p>Diriba Tola was born in Ethiopia in 1990 and graduated high school at Lalo Aira secondary school, he came to United State of America 4 years ago. Since 2019 he is working as PSE mail processing clerk at united states postal service, he also works as uber diver in part time. Diriba is attending St. Paul Community college as a part time student. He also graduates diploma as a booking from Career Technical Institute.</p>
+        <p>If you have any comments or qeustion about my biography fill the form provided below and submit it</p>
+
+
+        <form method="post" onsubmit="return validateForm();"
+             action="https://webdevstudents.com/submit-form.php">
+             <label for="firstName">First Name:</label><input type="text" id="firstName" name="firstName" required="required"> 
+             <label for="lastName">Last Name:</label><input type="text" id="lastName" name="lastName" required="required">
+              <label for="email">Email:</label><input type="email" id="email" name="email">
+         
+              <label for="comments">Comments:</label><input type="textarea" id="comments" name="comments">
+
+          <input type="submit" value="Submit" id="mySubmit"> 
+        </form>
+ 			</div>
+	</main>
+<footer>
+	<div class="row icons">
+            
+            	<div class="col-sm-4">
+                	<a href="https:/facebook.com">
+                		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+                		<h4>Follow us on Facebook</h4>
+                   </a>
+                </div>
+                <div class="col-sm-4">
+                	<a href="https://linked.com">
+                		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                		<h4>Connect on Linked In</h4>
+                   </a>
+                </div>
+                <div class="col-sm-4">
+                	<a href="mailto:diribatola1@gmail.com">
+                		<i class="fa fa-envelope" aria-hidden="true"></i>
+                		<h4>Email Us</h4>
+                   </a>
+                </div>
+        </div>       
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+		</div>
+</footer>
+</body>
+</html>
